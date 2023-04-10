@@ -1,9 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T06:39:30.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="21.1.2" etag="DBHSgUiTRcVHmlGUkEbw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T13:24:00.620Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mY75Vxc9v4ZLBstzfHuY" version="21.1.2" type="github">
   <diagram name="第 1 页" id="86zzf1FGlmF-jtxHysGu">
-    <mxGraphModel>
+    <mxGraphModel dx="1500" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UD72UffFnvkCBpp7IFEL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-1" target="UD72UffFnvkCBpp7IFEL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-1" value="调用开启预上传接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-7" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UD72UffFnvkCBpp7IFEL-6">
+          <mxGeometry x="-0.142" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-5" target="UD72UffFnvkCBpp7IFEL-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-10" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UD72UffFnvkCBpp7IFEL-8">
+          <mxGeometry x="-0.1156" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-5" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-9" value="返回任务Id 或者是 “-1”标志位（该文件已上传过，当前任务为秒传）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-12" value="前端抛出异常提示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="215" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-14" target="UD72UffFnvkCBpp7IFEL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-14" value="开始分段上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-16" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UD72UffFnvkCBpp7IFEL-15">
+          <mxGeometry x="-0.142" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-19" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-20" value="返回ETag值，前端记录&lt;br&gt;partNumber与ETag关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="350" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-21" target="UD72UffFnvkCBpp7IFEL-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-21" value="前端抛出异常提示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="215" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="202.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-23" value="开始分段上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-24" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="UD72UffFnvkCBpp7IFEL-24" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-26" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UD72UffFnvkCBpp7IFEL-25">
+          <mxGeometry x="-0.1156" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-29" value="s3分片上传文件时，只有最后一&lt;br&gt;个分片的文件可以小于5M，其余&lt;br&gt;分片必须大于等于5M，否则会报错" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UD72UffFnvkCBpp7IFEL-30" value="进行重试次数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
