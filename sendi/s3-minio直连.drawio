@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T02:33:55.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xEgwVF1RfW4uIjMEOwux" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T02:40:04.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cApWM9eOsBR04cw5o1sP" version="21.1.2" type="github">
   <diagram name="第 1 页" id="86zzf1FGlmF-jtxHysGu">
-    <mxGraphModel dx="1843" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
         <mxCell id="lTjCLl5CSfBBcBf3yB8B-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-20" target="lTjCLl5CSfBBcBf3yB8B-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UD72UffFnvkCBpp7IFEL-20" value="响应头中返回ETag值，前端记录&lt;br&gt;partNumber与ETag关系" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UD72UffFnvkCBpp7IFEL-20" value="前端记录&lt;br&gt;partNumber与ETag关系" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="545" y="360" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UD72UffFnvkCBpp7IFEL-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
@@ -154,17 +154,11 @@
         <mxCell id="lTjCLl5CSfBBcBf3yB8B-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-18" target="lTjCLl5CSfBBcBf3yB8B-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lTjCLl5CSfBBcBf3yB8B-18" value="合并请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-18" value="合并请求，带上partNumber-&amp;gt;ETag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTjCLl5CSfBBcBf3yB8B-19" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="635" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="lTjCLl5CSfBBcBf3yB8B-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-21" target="lTjCLl5CSfBBcBf3yB8B-55">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lTjCLl5CSfBBcBf3yB8B-21" value="返回ETag值，前端记录&lt;br&gt;partNumber与ETag关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="793" width="130" height="50" as="geometry" />
+          <mxGeometry x="570" y="700" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lTjCLl5CSfBBcBf3yB8B-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-19" target="lTjCLl5CSfBBcBf3yB8B-74">
           <mxGeometry relative="1" as="geometry">
@@ -177,9 +171,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lTjCLl5CSfBBcBf3yB8B-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-19" target="lTjCLl5CSfBBcBf3yB8B-21">
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-19" target="lTjCLl5CSfBBcBf3yB8B-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="770" as="targetPoint" />
+            <mxPoint x="610" y="793" as="targetPoint" />
             <mxPoint x="610" y="720" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
@@ -360,6 +354,14 @@
         </mxCell>
         <mxCell id="lTjCLl5CSfBBcBf3yB8B-81" value="是否达到重试次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="747" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-87" value="响应头：ETag:&quot;xxx&quot;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="657" y="310" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
