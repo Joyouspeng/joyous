@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T07:43:00.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Cvw0sDLFyybaUHClyG7m" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T08:26:29.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="O8rXBnFVL_u9ZxaRBKFz" version="21.1.2" type="github">
   <diagram name="第 1 页" id="86zzf1FGlmF-jtxHysGu">
     <mxGraphModel dx="1518" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,10 +39,10 @@
         <mxCell id="UD72UffFnvkCBpp7IFEL-5" value="请求成功" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="225" y="205" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lTjCLl5CSfBBcBf3yB8B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-9" target="UD72UffFnvkCBpp7IFEL-23">
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-117" target="UD72UffFnvkCBpp7IFEL-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="480" />
+              <mxPoint x="490" y="625" />
               <mxPoint x="490" y="80" />
             </Array>
           </mxGeometry>
@@ -51,6 +51,9 @@
           <mxGeometry x="0.5289" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UD72UffFnvkCBpp7IFEL-9" target="lTjCLl5CSfBBcBf3yB8B-117">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UD72UffFnvkCBpp7IFEL-9" value="返回任务Id 或者是 “-1”标志位（该文件已上传过，当前任务为秒传）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="205" y="450" width="120" height="60" as="geometry" />
@@ -399,6 +402,30 @@
         </mxCell>
         <mxCell id="lTjCLl5CSfBBcBf3yB8B-114" value="前端提示文件下载失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="2481" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-117" target="lTjCLl5CSfBBcBf3yB8B-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.52941176470586" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="266" y="713" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-121" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lTjCLl5CSfBBcBf3yB8B-119">
+          <mxGeometry x="-0.1885" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-117" value="taskId == -1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTjCLl5CSfBBcBf3yB8B-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270.2352941176471" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lTjCLl5CSfBBcBf3yB8B-120" value="调用新增文件纳管表接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="750" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
