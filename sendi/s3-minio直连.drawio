@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:24:40.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="zwJb-8ebbqJ2IHoHf_65" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T06:43:59.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="_8Z8sqwKFrDQUY_oXoyo" version="21.1.4" type="github">
   <diagram name="第 1 页" id="86zzf1FGlmF-jtxHysGu">
     <mxGraphModel dx="1000" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -516,6 +516,17 @@
         </mxCell>
         <mxCell id="36f4yx-A6JSLI--8gbKH-25" value="后端超时释放该文件锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="2370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36f4yx-A6JSLI--8gbKH-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=none;" edge="1" parent="1" source="36f4yx-A6JSLI--8gbKH-28" target="36f4yx-A6JSLI--8gbKH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36f4yx-A6JSLI--8gbKH-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="36f4yx-A6JSLI--8gbKH-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="1824.6190476190477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36f4yx-A6JSLI--8gbKH-28" value="文件分享链接出去后，用户A打开链接时后端进行文件是否存在校验，不存在则提示" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1790" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
