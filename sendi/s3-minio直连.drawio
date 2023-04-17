@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T09:28:56.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="jIa86ThICbDY_zwlMxad" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T09:40:14.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="sNm74kWImpgpK9i-7KxA" version="21.1.7" type="github">
   <diagram name="第 1 页" id="86zzf1FGlmF-jtxHysGu">
     <mxGraphModel dx="1500" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -423,7 +423,7 @@
           <mxGeometry x="1020" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R8NhTUtv1D92i6jCtsth-7" value="合并失败：&lt;br&gt;&lt;br&gt;.1. 任务失效&lt;br&gt;2. 分片信息有误（多、少、改）" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="613.53" width="170" height="80" as="geometry" />
+          <mxGeometry x="970" y="770" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="R8NhTUtv1D92i6jCtsth-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="R8NhTUtv1D92i6jCtsth-11" target="lTjCLl5CSfBBcBf3yB8B-18">
           <mxGeometry relative="1" as="geometry" />
