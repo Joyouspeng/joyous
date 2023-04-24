@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T10:13:16.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UKuHDWucsFayIXDQ6gWB" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T10:21:11.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="guJaTYYr850ccrb3e6xQ" version="21.2.1" type="github">
   <diagram name="第 1 页" id="86zzf1FGlmF-jtxHysGu">
-    <mxGraphModel dx="1391" dy="540" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1328" dy="515" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -561,15 +561,6 @@
         <mxCell id="npDq1CFz9nKR21-KWBLw-15" value="更新storage_object表的release字段为true" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="128.5" y="3032" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="npDq1CFz9nKR21-KWBLw-16" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="npDq1CFz9nKR21-KWBLw-28" edge="1" source="npDq1CFz9nKR21-KWBLw-36">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="188.52631578947376" y="3432" as="targetPoint" />
-            <mxPoint x="180.5" y="3374" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="189" y="3535" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="npDq1CFz9nKR21-KWBLw-28" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="148.5" y="3580" width="80" height="80" as="geometry" />
         </mxCell>
@@ -579,29 +570,32 @@
         <mxCell id="npDq1CFz9nKR21-KWBLw-32" value="删除file表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="126" y="2786" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="npDq1CFz9nKR21-KWBLw-36" value="定时任务清理minio对象" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="128.5" y="3409" width="120" height="60" as="geometry" />
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="npDq1CFz9nKR21-KWBLw-36" target="ZnhrQvanAy5G-d4vcPTv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npDq1CFz9nKR21-KWBLw-36" value="清理minio对象" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="128.5" y="3367" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZnhrQvanAy5G-d4vcPTv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZnhrQvanAy5G-d4vcPTv-1" target="ZnhrQvanAy5G-d4vcPTv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZnhrQvanAy5G-d4vcPTv-1" value="定时任务清理minio对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1047" y="2656" width="120" height="60" as="geometry" />
+          <mxGeometry x="738" y="2665" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZnhrQvanAy5G-d4vcPTv-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1067" y="2978" width="80" height="80" as="geometry" />
+          <mxGeometry x="758" y="3137" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZnhrQvanAy5G-d4vcPTv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnhrQvanAy5G-d4vcPTv-4" target="ZnhrQvanAy5G-d4vcPTv-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZnhrQvanAy5G-d4vcPTv-4" value="关联查询file、storage_object表中不在用并释放的数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1047" y="2756" width="120" height="60" as="geometry" />
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-4" value="关联查询file、storage_object表中不在用并可以释放的数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738" y="2776" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZnhrQvanAy5G-d4vcPTv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnhrQvanAy5G-d4vcPTv-5" target="ZnhrQvanAy5G-d4vcPTv-2">
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZnhrQvanAy5G-d4vcPTv-5" target="ZnhrQvanAy5G-d4vcPTv-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZnhrQvanAy5G-d4vcPTv-5" value="清理minio对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1047" y="2857" width="120" height="60" as="geometry" />
+          <mxGeometry x="738" y="2898" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZnhrQvanAy5G-d4vcPTv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnhrQvanAy5G-d4vcPTv-8" target="npDq1CFz9nKR21-KWBLw-28">
           <mxGeometry relative="1" as="geometry">
@@ -638,8 +632,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZnhrQvanAy5G-d4vcPTv-15" value="是否release为false切无引用" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-25" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZnhrQvanAy5G-d4vcPTv-20">
+          <mxGeometry x="-0.7993" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-15" value="是否release为true且无引用" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="148.5" y="3245" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnhrQvanAy5G-d4vcPTv-22" target="npDq1CFz9nKR21-KWBLw-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-22" value="清理storage_object表记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="128.5" y="3466" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZnhrQvanAy5G-d4vcPTv-26" target="ZnhrQvanAy5G-d4vcPTv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZnhrQvanAy5G-d4vcPTv-26" value="删除storage_object、file表记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="738" y="3019" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
