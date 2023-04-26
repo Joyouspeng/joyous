@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T06:29:49.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="aWM-J3n1sHYiDdrOU0GZ" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T06:32:59.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MT4CqzSNlwhYcbQaOl5V" version="21.2.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="842" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1436" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +126,7 @@
         <mxCell id="x6mRr0KGEibL8xwdvmWb-40" value="is_root" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="540" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x6mRr0KGEibL8xwdvmWb-41" value="是不是在该目录下的根文件夹" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="x6mRr0KGEibL8xwdvmWb-41" value="是否为该目录下的根文件夹，即进入目录时，实际进入为is_root为true的文件夹下" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="490" y="535" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="x6mRr0KGEibL8xwdvmWb-42" value="parent_id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -224,6 +224,9 @@
             <mxPoint x="462.5" y="-80" as="sourcePoint" />
             <mxPoint x="462.5" y="-120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x6mRr0KGEibL8xwdvmWb-76" value="懒得画属性的线了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=32;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-120" width="280" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
