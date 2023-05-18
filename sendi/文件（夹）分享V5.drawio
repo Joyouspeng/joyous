@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T08:25:15.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jbybtSmdten-4T8ddhSK" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T08:37:12.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gmVaR5vAuVjTehc9rsug" version="21.3.2" type="github">
   <diagram name="第 1 页" id="37nhzle9u0SKA33fkqQB">
     <mxGraphModel dx="4521" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -474,16 +474,11 @@
         <mxCell id="Nn34e_D6-jzWnd1NR4TE-38" value="获取预签名，下载文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="2450" y="1131.43" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nn34e_D6-jzWnd1NR4TE-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Nn34e_D6-jzWnd1NR4TE-42" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210.11764705882365" y="2300" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nn34e_D6-jzWnd1NR4TE-42" target="Wme53jyUgOuyj3q_OP8B-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nn34e_D6-jzWnd1NR4TE-42" value="文件夹上传接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="2130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Nn34e_D6-jzWnd1NR4TE-44" value="查看最小路径的对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="150" y="2300" width="120" height="60" as="geometry" />
+          <mxGeometry x="-80" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nn34e_D6-jzWnd1NR4TE-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Nn34e_D6-jzWnd1NR4TE-45" target="Nn34e_D6-jzWnd1NR4TE-47" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -523,6 +518,70 @@
         </mxCell>
         <mxCell id="Nn34e_D6-jzWnd1NR4TE-66" value="将文件信息、用户昵称返回前端" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="366" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-1" target="Wme53jyUgOuyj3q_OP8B-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-1" value="提交文件夹结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-3" target="Wme53jyUgOuyj3q_OP8B-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-3" value="后端返回各个文件夹与其对应的文件夹id，用于提交文件用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="2010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-5" value="提交单个文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-7" value="单个文件信息上传接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-12" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-10" target="Wme53jyUgOuyj3q_OP8B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-21" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-10" target="Wme53jyUgOuyj3q_OP8B-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-10" value="校验文件名是否重复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="403" y="1810" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-11" target="Wme53jyUgOuyj3q_OP8B-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-11" value="调用文件上传接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-13" target="Wme53jyUgOuyj3q_OP8B-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-13" value="获取返回的文件基本信息（文件ID、文件大小、文件上传名）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="2080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-16" target="Wme53jyUgOuyj3q_OP8B-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-16" value="上传文件信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="2210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-18" value="文件名是否重复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="2330" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wme53jyUgOuyj3q_OP8B-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="1940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wme53jyUgOuyj3q_OP8B-20" value="选择覆盖或者重命名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
