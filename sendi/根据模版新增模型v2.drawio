@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T09:00:48.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9x0eGERUrfcPgX-AQPUE" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T09:17:40.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="T3f9bB4QrrveDBpvWhAl" version="21.3.8" type="github">
   <diagram name="第 1 页" id="9QaG-1Hr1qf03bQRCT07">
     <mxGraphModel dx="1990" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,20 +249,20 @@
         <mxCell id="sBjqHFL0chYiisE3xwOb-111" value="定时清理excel文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2860" y="-128" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sBjqHFL0chYiisE3xwOb-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sBjqHFL0chYiisE3xwOb-113" target="sBjqHFL0chYiisE3xwOb-115" edge="1">
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sBjqHFL0chYiisE3xwOb-113" target="jtWd8jjBRYv03bXUQrUo-266">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sBjqHFL0chYiisE3xwOb-113" value="查询前天以及前天以前的日期命名的文件夹路径下的文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="sBjqHFL0chYiisE3xwOb-113" value="查询process表 查询一天前的数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2860" y="42" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sBjqHFL0chYiisE3xwOb-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="sBjqHFL0chYiisE3xwOb-115" target="sBjqHFL0chYiisE3xwOb-116" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sBjqHFL0chYiisE3xwOb-115" value="执行删除操作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2860" y="192" width="120" height="60" as="geometry" />
+          <mxGeometry x="2860" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sBjqHFL0chYiisE3xwOb-116" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="2880" y="362" width="80" height="80" as="geometry" />
+          <mxGeometry x="2880" y="415" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sBjqHFL0chYiisE3xwOb-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sBjqHFL0chYiisE3xwOb-120" target="sBjqHFL0chYiisE3xwOb-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -739,10 +739,8 @@
         <mxCell id="jtWd8jjBRYv03bXUQrUo-173" value="请求数据导入重试接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2100" y="3750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jtWd8jjBRYv03bXUQrUo-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-195">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2519.8823529411766" y="42" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-195" target="jtWd8jjBRYv03bXUQrUo-261">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-195" value="导出失败数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2460" y="-128" width="120" height="60" as="geometry" />
@@ -751,30 +749,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-197" value="遍历失败数据列表的模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2460" y="42" width="120" height="60" as="geometry" />
+          <mxGeometry x="2460" y="102" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jtWd8jjBRYv03bXUQrUo-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-199" target="jtWd8jjBRYv03bXUQrUo-201">
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-199" target="jtWd8jjBRYv03bXUQrUo-258">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-199" value="创建excel、写入数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2460" y="202" width="120" height="60" as="geometry" />
+          <mxGeometry x="2460" y="247" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-200" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2480" y="632" width="80" height="80" as="geometry" />
+          <mxGeometry x="2480" y="657" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-201" target="jtWd8jjBRYv03bXUQrUo-197">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2360" y="422" />
-              <mxPoint x="2360" y="72" />
+              <mxPoint x="2480" y="550" />
+              <mxPoint x="2360" y="550" />
+              <mxPoint x="2360" y="132" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jtWd8jjBRYv03bXUQrUo-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-201" target="jtWd8jjBRYv03bXUQrUo-200">
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-201" target="jtWd8jjBRYv03bXUQrUo-200">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-201" value="是否所有模型写入完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2480" y="382" width="80" height="80" as="geometry" />
+          <mxGeometry x="2480" y="512" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-206" target="jtWd8jjBRYv03bXUQrUo-226">
           <mxGeometry relative="1" as="geometry">
@@ -848,6 +847,24 @@
         </mxCell>
         <mxCell id="jtWd8jjBRYv03bXUQrUo-244" value="推断数据类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="956" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-258" target="jtWd8jjBRYv03bXUQrUo-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-258" value="写入压缩包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-263" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-261" target="jtWd8jjBRYv03bXUQrUo-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-261" value="创建压缩包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="-18" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtWd8jjBRYv03bXUQrUo-266" target="sBjqHFL0chYiisE3xwOb-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtWd8jjBRYv03bXUQrUo-266" value="解除模型锁定状态&lt;br&gt;&amp;nbsp;删除文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2860" y="157" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
