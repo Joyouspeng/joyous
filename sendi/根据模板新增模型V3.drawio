@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:41:10.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kohAs7lssxvPFBWr7uOC" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:42:58.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yE0cwgeKnIH7BcLvbocr" version="21.5.0" type="github">
   <diagram name="Page-1" id="z2g2F0g3IGi602Q9YPRa">
-    <mxGraphModel dx="5485" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5750" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,20 +111,16 @@
         <mxCell id="3SK7tmSLGKLuIoXsTymH-67" value="定时清理excel文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4820" y="-223" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-69" target="3SK7tmSLGKLuIoXsTymH-231" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3SK7tmSLGKLuIoXsTymH-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3SK7tmSLGKLuIoXsTymH-69" target="fFuvQ-C5Inp_0Tl-YwTY-319" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4880" y="61.99999999999977" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-69" value="查询process表 查询一天前的数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4820" y="-53" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-71" target="3SK7tmSLGKLuIoXsTymH-72" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-71" value="执行删除操作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4820" y="205" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-72" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="4840" y="320" width="80" height="80" as="geometry" />
+          <mxGeometry x="4840" y="817" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-128" style="orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;curved=1;endArrow=none;endFill=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-129" target="3SK7tmSLGKLuIoXsTymH-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -293,12 +289,6 @@
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-229" value="创建压缩包" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4420" y="-113" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-231" target="3SK7tmSLGKLuIoXsTymH-71" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-231" value="解除模型锁定状态&lt;br&gt;&amp;nbsp;删除文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4820" y="62" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3SK7tmSLGKLuIoXsTymH-235" target="fFuvQ-C5Inp_0Tl-YwTY-260">
           <mxGeometry relative="1" as="geometry" />
@@ -998,6 +988,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-317" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fFuvQ-C5Inp_0Tl-YwTY-316">
+          <mxGeometry x="-0.2585" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-218" value="是否存在失败数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3800" y="1267" width="240" height="80" as="geometry" />
         </mxCell>
@@ -1328,6 +1323,44 @@
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-313" value="是否重试" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2873" y="1115" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-318" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-319" target="fFuvQ-C5Inp_0Tl-YwTY-321">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-319" value="携带processId请求后端接口、清理相关数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="60.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-320" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-321">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4880.333333333334" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-321" value="查询process表查询upload_file_list、model_name_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="170.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-322" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-323" target="fFuvQ-C5Inp_0Tl-YwTY-325">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-323" value="根据fileId清理文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="290.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-325" target="fFuvQ-C5Inp_0Tl-YwTY-327">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-325" value="根据modelName解锁模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="410.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-326" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-327" target="fFuvQ-C5Inp_0Tl-YwTY-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-327" value="删除process表数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="535.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-329" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-328" target="3SK7tmSLGKLuIoXsTymH-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-328" value="更新ci_model表的lock字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4820" y="683.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
