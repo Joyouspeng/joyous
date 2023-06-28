@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:17:49.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EA_DHRYgq_EPqSQEK1Qa" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:25:23.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eZ7sVRkVd4D5SMxwsA6e" version="21.5.0" type="github">
   <diagram name="Page-1" id="z2g2F0g3IGi602Q9YPRa">
-    <mxGraphModel dx="5608" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5863" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -891,7 +891,7 @@
             <mxPoint x="1983" y="1416.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-184" value="将关联类型数据逐个新增入ci_model_relation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-184" value="将模型关联数据逐个新增入ci_model_relation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1922.5" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-188" target="fFuvQ-C5Inp_0Tl-YwTY-189">
