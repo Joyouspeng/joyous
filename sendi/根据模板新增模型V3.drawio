@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:30:45.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3R9pq0R1qVEHaBvT0doa" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:41:10.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kohAs7lssxvPFBWr7uOC" version="21.5.0" type="github">
   <diagram name="Page-1" id="z2g2F0g3IGi602Q9YPRa">
-    <mxGraphModel dx="5750" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5485" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -265,7 +265,7 @@
         <mxCell id="3SK7tmSLGKLuIoXsTymH-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-220" target="3SK7tmSLGKLuIoXsTymH-210" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-220" value="退出流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3SK7tmSLGKLuIoXsTymH-220" value="解锁模型-退出流程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="5180" y="-225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-223" target="3SK7tmSLGKLuIoXsTymH-208" edge="1">
@@ -968,7 +968,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-210" value="是否读写所有的sheet数据（包括cvs）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-210" value="是否已读写完所有sheet数据（包括cvs）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3830" y="626" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-212" target="fFuvQ-C5Inp_0Tl-YwTY-238">
@@ -990,18 +990,12 @@
             <mxPoint y="32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-218" target="fFuvQ-C5Inp_0Tl-YwTY-228">
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-218" target="fFuvQ-C5Inp_0Tl-YwTY-213">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3750.0370370370365" y="1446" as="targetPoint" />
             <Array as="points">
               <mxPoint x="3700" y="1307" />
-              <mxPoint x="3700" y="1745" />
+              <mxPoint x="3700" y="1884" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-217" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fFuvQ-C5Inp_0Tl-YwTY-216">
-          <mxGeometry x="-0.8826" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-218" value="是否存在失败数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1017,9 +1011,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-223" target="fFuvQ-C5Inp_0Tl-YwTY-228">
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-223" target="fFuvQ-C5Inp_0Tl-YwTY-213">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3920" y="1714" as="targetPoint" />
+            <mxPoint x="3920" y="1714.83" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-222" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fFuvQ-C5Inp_0Tl-YwTY-221">
@@ -1036,22 +1030,10 @@
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-225" value="获取数据入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3860" y="766" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-228" target="fFuvQ-C5Inp_0Tl-YwTY-213">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-227" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-228" target="fFuvQ-C5Inp_0Tl-YwTY-229">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-228" value="解锁模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="1714.83" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-229" value="关闭当前标签页也会执行该步骤" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="4020" y="1654" width="190" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-231" target="fFuvQ-C5Inp_0Tl-YwTY-233">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-231" value="根据processId查询process的selected_sheet__list、model_name_list字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-231" value="根据processId查询process的selected_sheet__list、process_ci_model、process_ci_model_property" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3860" y="321" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-233" target="fFuvQ-C5Inp_0Tl-YwTY-207">
@@ -1059,7 +1041,7 @@
             <mxPoint x="3920.3333333333335" y="464" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-233" value="遍历model_name_list获取当前模型、数组下标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-233" value="获取模型列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3860" y="423" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-238" target="fFuvQ-C5Inp_0Tl-YwTY-207">
