@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T09:17:40.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="f34mOBVK9jDVtsD-uIoz" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T06:31:10.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YgCH9MIilffozP5o489O" version="21.5.0" type="github">
   <diagram name="Page-1" id="z2g2F0g3IGi602Q9YPRa">
-    <mxGraphModel dx="6400" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5768" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
             <mxPoint x="-3100" y="102" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-131" value="获取返回的fileId" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3SK7tmSLGKLuIoXsTymH-131" value="获取返回的文件信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3160" y="-58" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-135" target="3SK7tmSLGKLuIoXsTymH-8" edge="1">
@@ -444,7 +444,7 @@
             <mxPoint x="-2040" y="-55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-276" value="【上传文件】下一步-返回导入数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3SK7tmSLGKLuIoXsTymH-276" value="【设置解析规则】-渲染【导入的数据】" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2100" y="-225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3SK7tmSLGKLuIoXsTymH-280" target="3SK7tmSLGKLuIoXsTymH-282" edge="1">
@@ -453,15 +453,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-280" value="传入processId请求后端接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2100" y="117" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2100" y="-18" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-282" target="3SK7tmSLGKLuIoXsTymH-289" edge="1">
+        <mxCell id="3SK7tmSLGKLuIoXsTymH-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-282" target="3SK7tmSLGKLuIoXsTymH-291" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2040" y="430" as="targetPoint" />
+            <mxPoint x="-2040" y="442" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-282" value="根据processId查询process_template_file表数据，组装数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2100" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2100" y="197" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3SK7tmSLGKLuIoXsTymH-283" target="3SK7tmSLGKLuIoXsTymH-284" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -475,22 +475,14 @@
         <mxCell id="3SK7tmSLGKLuIoXsTymH-284" value="查询、校验process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3SK7tmSLGKLuIoXsTymH-289" target="3SK7tmSLGKLuIoXsTymH-291" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2040" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3SK7tmSLGKLuIoXsTymH-289" value="三维数据（文件归类、文件、sheet）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2100" y="442" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-291" target="3SK7tmSLGKLuIoXsTymH-293" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-291" value="返回前端" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2100" y="612" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2100" y="394" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-293" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-2080" y="751" width="80" height="80" as="geometry" />
+          <mxGeometry x="-2080" y="533" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3SK7tmSLGKLuIoXsTymH-299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3SK7tmSLGKLuIoXsTymH-297" target="3SK7tmSLGKLuIoXsTymH-310" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -550,7 +542,7 @@
             <mxPoint x="-2590" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-22" value="【上传文件】下一步-更新文件归类结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-22" value="【上传文件】点击下一步-更新文件归类结构" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2650" y="-230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fFuvQ-C5Inp_0Tl-YwTY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fFuvQ-C5Inp_0Tl-YwTY-31" target="fFuvQ-C5Inp_0Tl-YwTY-34">
