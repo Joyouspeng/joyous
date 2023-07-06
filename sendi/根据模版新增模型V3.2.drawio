@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T09:51:43.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5U5PTIFWJbOSQbMdAvVx" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T14:18:08.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Jqw41tq9MB6g6en4uLpd" version="21.5.2" type="github">
   <diagram name="第 1 页" id="Q3I5F-I_9Dcw70OoqjTo">
-    <mxGraphModel dx="7512" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7868" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1171,19 +1171,13 @@
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-493" value="【设置解析规则】-轮询查询导入数据是否解析完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2080" y="-228" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-494" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-495" target="FaqCZbPYMvw0_bSV-Ejf-497">
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-494" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-495" target="FaqCZbPYMvw0_bSV-Ejf-794">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2020" y="274" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-495" value="传入processId请求后端接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2080" y="-21" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-496" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-497" target="FaqCZbPYMvw0_bSV-Ejf-505">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-497" value="根据processId查询异步执行结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2080" y="194" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-498" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-2060" y="751.5" width="80" height="80" as="geometry" />
@@ -1229,34 +1223,6 @@
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-507" value="结束轮询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2080" y="613" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-509" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-510" target="FaqCZbPYMvw0_bSV-Ejf-512">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1600" y="-56" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-510" value="【设置解析规则】-获取文件sheet数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1660" y="-226" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-511" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-512" target="FaqCZbPYMvw0_bSV-Ejf-515">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1600" y="109" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-512" value="从redis中获取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1660" y="-5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-513" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-515" target="FaqCZbPYMvw0_bSV-Ejf-514">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1600" y="306" as="targetPoint" />
-            <mxPoint x="-1600" y="169" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-514" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-1640" y="445" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-515" value="返回前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1660" y="214" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-521" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-520" target="FaqCZbPYMvw0_bSV-Ejf-210">
           <mxGeometry relative="1" as="geometry" />
@@ -1854,6 +1820,12 @@
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-790" value="返回前端&lt;br&gt;成功数0、失败数A、总数A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2535" y="867.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-795" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-794" target="FaqCZbPYMvw0_bSV-Ejf-505">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-794" value="从redis中获取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2080" y="162.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
