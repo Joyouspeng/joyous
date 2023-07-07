@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T03:54:44.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0pZ0brcuShNZDRnt_mq0" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T03:55:20.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NxaJ4ITx1kchnjWit8zC" version="21.5.2" type="github">
   <diagram name="第 1 页" id="Q3I5F-I_9Dcw70OoqjTo">
-    <mxGraphModel dx="6559" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7742" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,7 +172,7 @@
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-71" target="FaqCZbPYMvw0_bSV-Ejf-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-71" value="根据modelName解锁模型、更新ci_model的lock_status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-71" value="根据modelName解锁模型、更新ci_model的locked" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="4180" y="172.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-73" target="FaqCZbPYMvw0_bSV-Ejf-75">
