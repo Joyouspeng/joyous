@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T02:54:05.095Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="A7YIxloYUz9ZWVpus2oC" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T02:57:13.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="e0hqvtf734kzUdk5CFr8" version="21.5.2" type="github">
   <diagram name="第 1 页" id="Q3I5F-I_9Dcw70OoqjTo">
-    <mxGraphModel dx="6756" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7628" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,7 +183,7 @@
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-73" value="根据fileId清理文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4180" y="292.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-75" target="FaqCZbPYMvw0_bSV-Ejf-65">
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-75" target="FaqCZbPYMvw0_bSV-Ejf-815">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="4240" y="565.25" as="targetPoint" />
           </mxGeometry>
@@ -895,7 +895,7 @@
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-379" value="根据fileId清理文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3880" y="284" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-382" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-383" target="FaqCZbPYMvw0_bSV-Ejf-33">
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-382" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-383" target="FaqCZbPYMvw0_bSV-Ejf-814">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3940" y="677" as="targetPoint" />
           </mxGeometry>
@@ -1829,6 +1829,18 @@
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-808" value="指定目录下查找对应的processId文件夹，获取文件夹下模型Excel文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3590" y="43.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-817" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-814" target="FaqCZbPYMvw0_bSV-Ejf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-814" value="删除指定目录下process文件夹文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="528.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-816" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-815" target="FaqCZbPYMvw0_bSV-Ejf-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-815" value="删除指定目录下process文件夹文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4180" y="528.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
