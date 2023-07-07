@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T03:27:46.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qPRa1Z7U3ha-APf3S1LU" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T03:54:44.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0pZ0brcuShNZDRnt_mq0" version="21.5.2" type="github">
   <diagram name="第 1 页" id="Q3I5F-I_9Dcw70OoqjTo">
-    <mxGraphModel dx="7742" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6559" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1821,6 +1821,9 @@
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-820" value="将model.model_list.name\alias写入redis，提供唯一校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-26" y="613" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-822" value="成功+失败！=总数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;：流程进行中&lt;br&gt;&lt;br&gt;成功+失败 ==总数 &amp;amp;&amp;amp; 失败！=0&lt;br&gt;：有重试按钮&lt;br&gt;&lt;br&gt;成功+失败== 总数&amp;amp;&amp;amp;失败==0&lt;br&gt;：进行下一步" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="2502.5" y="463.5" width="207.5" height="129" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
