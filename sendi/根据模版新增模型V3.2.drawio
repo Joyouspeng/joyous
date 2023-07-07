@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T03:12:53.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="d_kylD0uxexOHj9Fb0mo" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T03:15:19.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UvXv3zQ1TQFiutvrjnUQ" version="21.5.2" type="github">
   <diagram name="第 1 页" id="Q3I5F-I_9Dcw70OoqjTo">
-    <mxGraphModel dx="6820" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8126" dy="2276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -546,7 +546,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-194" value="查询、校验process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1022.5" y="79" width="120" height="60" as="geometry" />
+          <mxGeometry x="1022.5" y="69" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-201" target="FaqCZbPYMvw0_bSV-Ejf-522">
           <mxGeometry relative="1" as="geometry">
@@ -554,13 +554,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-201" value="按顺序处理model_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1023" y="297" width="120" height="60" as="geometry" />
+          <mxGeometry x="1023" y="273" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-203" target="FaqCZbPYMvw0_bSV-Ejf-206">
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-203" target="FaqCZbPYMvw0_bSV-Ejf-818">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-203" value="更新&lt;br&gt;model_list.status&lt;br&gt;状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1023.5" y="761.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1022.5" y="696.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-206" target="FaqCZbPYMvw0_bSV-Ejf-208">
           <mxGeometry relative="1" as="geometry" />
@@ -574,7 +574,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="920" y="930" />
-              <mxPoint x="920" y="327" />
+              <mxPoint x="920" y="300" />
+              <mxPoint x="1023" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -604,7 +605,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-214" value="查询process的model.model_list.status为false的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1022.5" y="184.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1022.5" y="167" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-530" target="FaqCZbPYMvw0_bSV-Ejf-244">
           <mxGeometry relative="1" as="geometry">
@@ -1203,16 +1204,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-522" value="创建模型写入ci_model、并且locked为true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1022.5" y="398.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1022.5" y="363.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-526" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-523" target="FaqCZbPYMvw0_bSV-Ejf-525">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-523" value="获取model_list.property&lt;br&gt;写入ci_model_property" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1023" y="497" width="120" height="60" as="geometry" />
+          <mxGeometry x="1022.5" y="459" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-525" value="分别获取model_list.model_headers、unique_rules、property_group&lt;br&gt;写入&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;custom_model_header、&lt;br&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;ci_model_unique_rule、&lt;br&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;ci_model_property_group&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1023.5" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="1022.5" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-530" value="创建模型关联" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1023.5" y="1379.5" width="120" height="60" as="geometry" />
@@ -1812,6 +1813,12 @@
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-815" value="删除指定目录下process文件夹文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4180" y="528.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-819" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-818" target="FaqCZbPYMvw0_bSV-Ejf-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-818" value="将成功入库ci_mode表的模型名称、唯一标识维护进redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1022.5" y="789" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
