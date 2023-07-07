@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T06:00:54.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vl45qhW573aS-6B6HkqD" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T06:02:05.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LG1OU0L2uBK7AvH5Lotj" version="21.5.2" type="github">
   <diagram name="第 1 页" id="Q3I5F-I_9Dcw70OoqjTo">
-    <mxGraphModel dx="7219" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6820" dy="1570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1876,7 +1876,7 @@
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-825" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-823" target="FaqCZbPYMvw0_bSV-Ejf-824">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-823" value="查询Redis上RetryingProcess有无改进程存在" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-823" value="查询Redis上RetryingProcess有无该processId存在" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1512.5" y="-53.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-826" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-824" target="FaqCZbPYMvw0_bSV-Ejf-604">
@@ -1929,6 +1929,12 @@
         </mxCell>
         <mxCell id="FaqCZbPYMvw0_bSV-Ejf-847" value="成功或失败移除redis上RetryingProcess列表该processId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2150" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-850" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.666;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="FaqCZbPYMvw0_bSV-Ejf-849" target="FaqCZbPYMvw0_bSV-Ejf-823">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FaqCZbPYMvw0_bSV-Ejf-849" value="&amp;nbsp; &amp;nbsp; RSet&amp;lt;String&amp;gt; processIdSet = redissonClient.getSet(&quot;RetryingProcess&quot;);" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-150.5" width="230" height="118" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
