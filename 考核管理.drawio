@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="HqW-_nesJlfpS36qTL-l">
-    <mxGraphModel dx="2901" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3790" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,19 +8,19 @@
           <mxGeometry x="530" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-3" value="问题整改单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="630" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-4" value="专项检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="1021" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-5" value="薪酬抽查任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="1600" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-6" value="考核报告" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="1910" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-7" value="考核报告模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="2270" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MGvrBaxNznsIz5GFuFWP-8" target="MGvrBaxNznsIz5GFuFWP-2">
           <mxGeometry relative="1" as="geometry" />
@@ -91,7 +91,7 @@
           <mxGeometry x="-80" y="940" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-31" value="考核时间" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="990" width="80" height="50" as="geometry" />
+          <mxGeometry x="-80" y="1044" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-34" value="考核单明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="1160" width="120" height="60" as="geometry" />
@@ -109,19 +109,211 @@
           <mxGeometry x="-80" y="1510" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-39" value="总加/减分" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="1040" width="80" height="50" as="geometry" />
+          <mxGeometry x="-80" y="1094" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-40" value="总奖/扣金额" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="1090" width="80" height="50" as="geometry" />
+          <mxGeometry x="-80" y="1144" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-41" value="整改内容" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="190" width="80" height="50" as="geometry" />
+          <mxGeometry x="520" y="1210" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MGvrBaxNznsIz5GFuFWP-42" value="整改结果" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="190" width="80" height="50" as="geometry" />
+          <mxGeometry x="600" y="1210" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MGvrBaxNznsIz5GFuFWP-44" value="整改结果" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="190" width="80" height="50" as="geometry" />
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-44" value="整改附件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-45" value="验收结果" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-46" value="验收附件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-48" value="问题整改单明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="629" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-54" value="问题整改单编号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-55" value="委外项目ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-56" value="委外项目名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-57" value="来源单据名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-58" value="单据ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-59" value="签发单位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-60" value="整改单位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-61" value="整改单明细数量" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-62" value="问题整改单ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-63" value="检查表编号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-65" value="检查表名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-66" value="检查类型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-67" value="检查合格单位数量" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-68" value="涉及整改单位数量" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-69" value="整改项数量" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-70" value="专项检查明细" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-71" value="委外项目ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-72" value="委外项目名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-73" value="检查项" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-74" value="检查情况" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-75" value="整改单位" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-76" value="整改内容" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-77" value="整改结果" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-78" value="整改附件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-79" value="验收结果" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-80" value="验收附件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-81" value="审核状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="460" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-82" value="委外项目ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="510" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-83" value="委外项目名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-84" value="承包单位" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="610" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-85" value="考核月份" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="660" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-86" value="考核报告" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="710" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-87" value="奖/扣金额" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="760" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-88" value="抽查任务编号" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-90" value="抽查任务名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-91" value="委外项目名称" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-92" value="委外项目ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-93" value="承包单位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-94" value="周期" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-96" value="抽查人数" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-97" value="符合人数" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-98" value="不符合人数" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-99" value="薪酬抽查任务人员明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-100" value="人员ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-101" value="姓名" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-102" value="身份证号码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-103" value="周期" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-104" value="职务/岗位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-105" value="工时" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-106" value="工资" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-107" value="五险一金" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-108" value="五险金额" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-109" value="抽查人员ID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1020" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-110" value="公积金金额" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-111" value="是否符合" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-112" value="备注" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-113" value="证明附件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-114" value="抽查备注" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-115" value="附件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="1210" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-116" value="关联单据表名" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="990" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGvrBaxNznsIz5GFuFWP-118" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;薪酬抽查任务&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1004" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
